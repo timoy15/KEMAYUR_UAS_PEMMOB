@@ -1,0 +1,32 @@
+name: kemayur_uas_pemmob
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you are publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"  # Update this to the version you have installed
+
+dependencies:
+  flutter:
+    sdk: flutter
+    provider: ^6.0.3
+
+  # Add other dependencies here
+  # Example:
+  # provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1  # Use the latest version of flutter_lints
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # Add other flutter-specific configuration here
